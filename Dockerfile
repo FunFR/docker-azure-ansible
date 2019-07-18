@@ -3,4 +3,4 @@ FROM microsoft/azure-cli
 LABEL maintainer="adrien@luneau.me"
 
 # Update pip and install ansible packages
-RUN pip install --upgrade pip && pip install ansible && pip install ansible[azure]
+RUN pip install --upgrade pip && pip install ansible && pip install ansible[azure] && pip install azure-cli
